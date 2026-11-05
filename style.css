@@ -40,3 +40,11 @@ footer a{color:var(--gold-hell)}footer .wrap{display:flex;flex-wrap:wrap;gap:1re
 .seite{padding:3rem 0}.seite h1{color:var(--rot);font-size:2.2rem}.seite h2{font-size:1.3rem;margin-top:2rem}
 .hinweis{background:#fff3cf;border-left:4px solid var(--gold);padding:.8rem 1rem;max-width:42rem;font-size:.95rem}
 #fragen summary{color:var(--weiss)}#fragen details p{color:var(--gold)}#fragen details{border-bottom-color:#4a3436}
+.plakat{max-width:22rem;width:100%;margin:0 auto}
+.routentitel{font-size:1.3rem;color:var(--rot);margin:2.5rem 0 1rem}
+.route{list-style:none;margin:0;padding:0;display:grid;gap:0;grid-template-columns:1fr}
+.route li{position:relative;padding:0 0 1.2rem 2rem;border-left:2px solid var(--gold);margin-left:.5rem;font-family:var(--serif);font-weight:700;color:var(--rot);font-size:1.1rem}
+.route li::before{content:"";position:absolute;left:-.55rem;top:.35rem;width:.9rem;height:.9rem;border-radius:50%;background:var(--gold);border:2px solid var(--rot)}
+.route li:last-child{border-left-color:transparent}
+.route span{display:block;font-family:var(--sans);font-weight:400;font-size:.9rem;color:var(--text)}
+@media(min-width:760px){.route{grid-template-columns:repeat(6,1fr)}.route li{border-left:0;border-top:2px solid var(--gold);margin:0;padding:1.4rem .6rem 0 0}.route li::before{left:0;top:-.5rem}.route li:last-child{border-top-color:var(--gold)}}
