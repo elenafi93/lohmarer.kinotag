@@ -39,3 +39,4 @@ footer{background:var(--rot-tief);color:var(--weiss);padding:2rem 0;font-size:.9
 footer a{color:var(--gold-hell)}footer .wrap{display:flex;flex-wrap:wrap;gap:1rem 2rem;justify-content:space-between}
 .seite{padding:3rem 0}.seite h1{color:var(--rot);font-size:2.2rem}.seite h2{font-size:1.3rem;margin-top:2rem}
 .hinweis{background:#fff3cf;border-left:4px solid var(--gold);padding:.8rem 1rem;max-width:42rem;font-size:.95rem}
+#fragen summary{color:var(--weiss)}#fragen details p{color:var(--gold)}#fragen details{border-bottom-color:#4a3436}
