@@ -1,0 +1,6 @@
+Lege hier diese Dateien ab (Quelle: suedafrikafilm.de/presse.html, vorher Freigabe der Fernwehmacher einholen):
+hero.jpg           <- 170-Kariega-Elefanten-am-Wasserloch-Suedafrika---Der-Kinofilm.jpg
+foto-tafelberg.jpg <- 003--Kapstadt-Tafelberg-aus-der-Ferne-Suedafrika---Der-Kinofilm.jpg
+foto-elefanten.jpg <- 148-Elefantenkampf-stehen-sich-gegenueber-Suedafrika-Der-Kinofilm.jpg
+foto-giraffe.jpg   <- 179-Kariega-Game-Reserve-Giraffe-schnuppert-an-Baby-Suedafrika-Der-Kinofilm.jpg
+plakat.jpg         <- SuedafrikaDerKinofilmPlakat_DINA4_RGBNEUk.jpg
