@@ -72,24 +72,44 @@
 <p><a class="btn" href="mailto:lohmarer.kinotag@gmail.com?subject=Vorverkauf%20Lohmarer%20Kinotag&amp;body=Bitte%20benachrichtigen%20Sie%20mich%20zum%20Start%20des%20Vorverkaufs.">Per E-Mail benachrichtigen lassen</a></p>
 </div></div></section>
 
-<section id="anfahrt" class="dunkel"><div class="wrap">
+<section id="anfahrt" class="dunkel"><div class="wrap zwei">
+<div>
 <h2>Anfahrt zur Jabachhalle</h2>
+<p><strong>Jabachhalle Lohmar</strong><br>Donrather Dreieck 1<br>53797 Lohmar</p>
 <ul class="liste">
-<li><strong>Auto:</strong> Kostenlose Parkplätze stehen zur Verfügung. Hinweise zur Zufahrt folgen.</li>
-<li><strong>Bus und Bahn:</strong> Die Halle ist an den ÖPNV angebunden. Haltestelle und Verbindungen folgen.</li>
+<li><strong>Auto:</strong> Kostenlose Parkplätze am Donrather Dreieck, direkt an der Halle.</li>
+<li><strong>Bus:</strong> Haltestelle „Lohmar Schulzentrum“ an der Hauptstraße, wenige Gehminuten von der Halle (u. a. die Linien 553 bis 557). Verbindungen finden Sie in der <a href="https://www.vrsinfo.de" rel="noopener">Fahrplanauskunft des VRS</a>.</li>
 <li><strong>Barrierefreiheit:</strong> Informationen folgen.</li>
 </ul>
-<p><a href="https://www.openstreetmap.org/search?query=Jabachhalle%20Lohmar" rel="noopener">Jabachhalle auf der Karte öffnen</a></p>
-</div></section>
+<p><a class="btn" href="https://www.google.com/maps/dir/?api=1&amp;destination=Donrather+Dreieck+1,+53797+Lohmar" rel="noopener">Route planen</a></p>
+</div>
+<div class="kartenbox">
+<p>Hier erscheint die Karte von Google Maps. Beim Laden werden Daten an Google übertragen (siehe <a href="datenschutz.html">Datenschutz</a>).</p>
+<button class="btn" type="button" data-karte>Karte laden</button>
+</div>
+</div>
+<div class="wrap"><figure class="skizze"><img src="images/anfahrt.svg" alt="Lageskizze: Jabachhalle am Donrather Dreieck mit Parkplätzen, der Hauptstraße und der Bushaltestelle Lohmar Schulzentrum" width="800" height="460"><figcaption>Lageskizze, nicht maßstabsgetreu.</figcaption></figure></div></section>
 
 <section id="reisebegleiter"><div class="wrap">
 <h2>Reisebegleiter</h2>
-<p>Der Lohmarer Kinotag wird von Unternehmen aus der Region unterstützt, die Ihre Reise begleiten.</p>
-<div class="sponsoren" style="color:var(--weiss)">
-<div class="sponsor" style="background:var(--schwarz)">KSK Lohmar<span>Vorverkaufsstelle</span></div>
-<div class="sponsor" style="background:var(--schwarz)">FALC Immobilien<span>Reisebegleiter</span></div>
+<p>Keine große Reise ohne gute Begleitung: Diese Unternehmen aus der Region machen den Lohmarer Kinotag möglich. Jeder von ihnen steht für eine Station auf dem Weg dorthin.</p>
+<div class="passliste">
+<article class="pass"><div class="pass-kopf">Reisebegleiter · Reisekasse</div>
+<div class="pass-logo"><img src="images/logo-ksk.png" alt="Logo KSK" onerror="this.parentNode.style.display='none'"></div>
+<h3>KSK Lohmar</h3><p>Vorverkaufsstelle für Ihre Tickets und gut gefüllte Reisekasse.</p>
+<a href="https://www.ksk-koeln.de" rel="noopener">Zur Website</a></article>
+<article class="pass"><div class="pass-kopf">Reisebegleiter · Heimkehr</div>
+<div class="pass-logo"><img src="images/logo-falc.png" alt="Logo FALC Immobilien" onerror="this.parentNode.style.display='none'"></div>
+<h3>FALC Immobilien</h3><p>Für das Ankommen nach der Reise: ein Zuhause, in dem man gern wieder die Koffer auspackt.</p>
+<a href="https://www.falcimmo.de" rel="noopener">Zur Website</a></article>
+<article class="pass pass-frei"><div class="pass-kopf">Noch frei</div>
+<h3>Ihr Unternehmen?</h3><p>Werden Sie Reisebegleiter des Lohmarer Kinotags.</p>
+<a href="mailto:lohmarer.kinotag@gmail.com?subject=Reisebegleiter%20Lohmarer%20Kinotag">Jetzt anfragen</a></article>
 </div>
-<p>Sie möchten den Kinotag unterstützen? Schreiben Sie uns an <a href="mailto:lohmarer.kinotag@gmail.com">lohmarer.kinotag@gmail.com</a>.</p>
+<!-- Vorlage für weitere Reisebegleiter (erst nach schriftlicher Zusage einfügen):
+<article class="pass"><div class="pass-kopf">Reisebegleiter · ROLLE</div>
+<div class="pass-logo"><img src="images/logo-NAME.png" alt="Logo NAME" onerror="this.parentNode.style.display='none'"></div>
+<h3>NAME</h3><p>KURZER SATZ</p><a href="https://WEBSITE" rel="noopener">Zur Website</a></article> -->
 </div></section>
 
 <section id="fragen" class="dunkel"><div class="wrap">
@@ -111,4 +131,7 @@
 <span>© Lohmarer Kinotag 2027</span>
 <span><a href="impressum.html">Impressum</a> · <a href="datenschutz.html">Datenschutz</a></span>
 </div></footer>
+<script>
+document.querySelectorAll('[data-karte]').forEach(function(b){b.addEventListener('click',function(){var box=b.closest('.kartenbox');var f=document.createElement('iframe');f.src='https://www.google.com/maps?q=Donrather+Dreieck+1,+53797+Lohmar&hl=de&z=16&output=embed';f.title='Karte: Jabachhalle Lohmar';f.loading='lazy';f.referrerPolicy='no-referrer-when-downgrade';box.textContent='';box.appendChild(f);});});
+</script>
 </body></html>
